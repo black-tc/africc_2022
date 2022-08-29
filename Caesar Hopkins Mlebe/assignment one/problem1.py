@@ -1,5 +1,3 @@
-# from email.policy import default
-
 print("My Simple calculator")
 #get input from the user
 number1 = input("Enter first number: ")
@@ -41,3 +39,4 @@ match int(operation):
         print("{0} subtract {1} is {2}".format(number1, number2, sum))
     case default:
         print("Sorry!, Couldn't operate")
+        
