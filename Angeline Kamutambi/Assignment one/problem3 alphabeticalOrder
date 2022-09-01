@@ -1,0 +1,16 @@
+# program to sort alphabetically the words from a sentence(string) provided by the user
+# my_str = "hello africa team, when is the ICC taking place"
+
+# To get the input from the user
+my_str = input("Enter a sentence : ")
+
+# breakdown the string into list of words
+words = [words.lower() for words in my_str.split()]
+
+# sort the list
+words.sort()
+
+# display the sorted words
+print("The sorted words are : ")
+for word in words:
+    print(word)
